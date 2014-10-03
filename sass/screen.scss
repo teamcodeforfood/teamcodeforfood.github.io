@@ -1,0 +1,68 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic);
+@import "compass/reset";
+
+$main-color: #2BB29D;
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+}
+
+body {
+    background-color: $main-color;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#header {
+    padding: 150px 0;
+    padding-bottom: 75px;
+    text-align: center;
+
+    i {
+        font-family: "Vollkorn", "times new roman", serif;
+        font-style: italic;
+        font-size: 1.3em;
+        margin-bottom: 8px;
+        display: block;
+    }
+}
+
+.wrap {
+    max-width: 35%;
+    margin: 0 auto;
+    color: #444;
+    line-height: 34pt;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.profile {
+    border-radius: 50%;
+    margin: 0 5px;
+    height: 150px;
+}
+
+a {
+    color: #111;
+}
